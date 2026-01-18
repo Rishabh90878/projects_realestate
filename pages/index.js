@@ -5,7 +5,7 @@ import { Flex, Box, Text, Button } from '@chakra-ui/react';
 import Property from '../components/Property';
 import { baseUrl, fetchApi } from '../utils/fetchApi';
 
-export const Banner = ({ purpose, title1, title2, desc1, desc2, buttonText, linkName, imageUrl }) => (
+    export const Banner = ({ purpose, title1, title2, desc1, desc2, buttonText, linkName, imageUrl }) => (
   <Flex flexWrap='wrap' justifyContent='center' alignItems='center' m='10'>
     <Image src={imageUrl} width={500} height={300} />
     <Box p='5'>
